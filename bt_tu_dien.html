@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="rd" >
+<button onclick="kick()" id="sr">search</button>
+<script>
+    //let a= prompt("tra tu dien tai day: ");
+
+    function kick() {
+        let b=["hello","teacher","student"];
+        let c=["xin chào","giáo viên","học sinh"];
+        x=document.getElementById("rd").value;
+        for ( let i=0;i<b.length;i++) {
+            if (x === b[i]) {
+                alert( c[i]);
+            }
+
+
+        }
+    }
+</script>
+</body>
+</html>
